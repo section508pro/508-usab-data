@@ -2,10 +2,9 @@
   "name": "508-usab-data",
   "version": "0.1.0",
   "description": "Section 508 data for USAB",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dirh": "cd reports; tree . -L 2 -H . > index.html",
-    "dirj": "cd reports; tree . -L 2 -J  > index.json",
     "testm": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://www.access-board.gov --mobile  --output-path reports/mobile/$TODAY ",
     "testd": "TODAY=$(date \"+%Y-%m-%d\"); unlighthouse-ci --site https://www.access-board.gov --desktop --output-path reports/desktop/$TODAY ",
     "json": "node json.js",
