@@ -1,0 +1,1322 @@
+[
+  {
+    "path": "/",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/404/",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/504-contacts/",
+    "score": 0.95,
+    "performance": 0.87,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/",
+    "score": 0.84,
+    "performance": 0.42,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/about.html",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/chapter/ch01/",
+    "score": 0.97,
+    "performance": 0.93,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/chapter/ch02/",
+    "score": 0.92,
+    "performance": 0.76,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/chapter/ch03/",
+    "score": 0.96,
+    "performance": 0.97,
+    "accessibility": 0.87,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/chapter/ch04/",
+    "score": 0.96,
+    "performance": 0.89,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/chapter/ch06/",
+    "score": 0.95,
+    "performance": 0.93,
+    "accessibility": 0.87,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/chapter/ch07/",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/chapter/ch08/",
+    "score": 0.96,
+    "performance": 0.97,
+    "accessibility": 0.87,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/chapter/ch10/",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/dod-policy-memo.html",
+    "score": 0.96,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/aba/guides/",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/guides/chapter-10-amusement-rides/",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/guides/chapter-10-play-areas/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/guides/chapter-10-play-surfaces/",
+    "score": 0.96,
+    "performance": 0.98,
+    "accessibility": 0.93,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aba/guides/chapter-2-alterations-additions-and-leases/",
+    "score": 0.95,
+    "performance": 0.88,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/guides/chapter-2-new-construction/",
+    "score": 0.97,
+    "performance": 0.95,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/guides/chapter-3-operable-parts/",
+    "score": 0.96,
+    "performance": 0.91,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/guides/chapter-4-elevators-and-platform-lifts/",
+    "score": 0.97,
+    "performance": 0.95,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/guides/chapter-6-lavs-sinks/",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/aba/ufas.html",
+    "score": 0.92,
+    "performance": 0.76,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/board-chairs-and-vice-chairs.html",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/board-members/benjamin-nadolsky/",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/board-members/federal-dol/",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/board-members/federal-hud/",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/board-members/federal-usps/",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/board-members/heather-dowdy/",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/board-members/karen-l-braitmayer/",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/board-members/sachin-dev-pavithran/",
+    "score": 0.91,
+    "performance": 0.74,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/about/board-members/tom-samra/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/about/cj2021.html",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/fevs.html",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/history.html",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/members-past.html",
+    "score": 0.99,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/par2020.html",
+    "score": 0.95,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/about/policy/accessibility.html",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/policy/ffe.html",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/policy/foia.html",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/policy/iq.html",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/policy/no-fear-notice.html",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/policy/privacy.html",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/policy/ra.html",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/policy/shutdown.html",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/staff/",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/venue.html",
+    "score": 0.99,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada-es/",
+    "score": 0.82,
+    "performance": 0.51,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/ada-es/about.html",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada-es/doj.html",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada-es/intro.html",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/",
+    "score": 0.83,
+    "performance": 0.4,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/about.html",
+    "score": 0.97,
+    "performance": 0.95,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/ada-ibc-comparison/",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/ada-ibc-comparison/appendix/",
+    "score": 0.96,
+    "performance": 0.98,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/ada/ada-ibc-comparison/chapter-1/",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/ada-ibc-comparison/chapter-2/",
+    "score": 0.93,
+    "performance": 0.78,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/ada-ibc-comparison/chapter-3/",
+    "score": 0.95,
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/ada/ada-ibc-comparison/chapter-4/",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/ada-ibc-comparison/chapter-6/",
+    "score": 0.95,
+    "performance": 0.93,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/ada/ada-ibc-comparison/chapter-7/",
+    "score": 0.97,
+    "performance": 0.95,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/ada-ibc-comparison/chapter-8/",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/additional-resources/designing-accessible-courthouses.html",
+    "score": 0.93,
+    "performance": 0.85,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/ada/background.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/chapter/ch02/",
+    "score": 0.95,
+    "performance": 0.87,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/chapter/ch03/",
+    "score": 0.94,
+    "performance": 0.98,
+    "accessibility": 0.87,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/ada/chapter/ch04/",
+    "score": 0.97,
+    "performance": 0.95,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/chapter/ch05/",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/chapter/ch06/",
+    "score": 0.96,
+    "performance": 0.95,
+    "accessibility": 0.87,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/chapter/ch07/",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/chapter/ch08/",
+    "score": 0.97,
+    "performance": 0.93,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/chapter/ch09/",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/doj.html",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/animations/accessible-bathing-facilities.html",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/animations/accessible-toilet-rooms.html",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/animations/maneuvering-at-doors.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/animations/parking-and-passenger-loading-zones.html",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/animations/protruding-objects.html",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/animations/sales-and-service-counters.html",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/animations/signs.html",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/animations/wheelchair-maneuvering.html",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/chapter-10-fishing-piers-and-platforms/",
+    "score": 0.95,
+    "performance": 0.95,
+    "accessibility": 0.93,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/chapter-10-play-areas/",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/chapter-4-accessible-routes/",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/chapter-5-stairways/",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/chapter-6-saunas/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/chapter-6-toilet-rooms/",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/chapter-6-washers/",
+    "score": 0.96,
+    "performance": 0.89,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/guides/chapter-7-signs/",
+    "score": 0.94,
+    "performance": 0.82,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/intro.html",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/draft-2007.html",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/draft-2008.html",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/guides/",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/guides/subpart-a-guide/",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/guides/subpart-b-guide/",
+    "score": 0.97,
+    "performance": 0.95,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/guides/subpart-d-guide/",
+    "score": 0.97,
+    "performance": 0.93,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/guides/subpart-f-guide/",
+    "score": 0.97,
+    "performance": 0.93,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/guides/subpart-g-guide/",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/guides/subpart-h-guide-agts/",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/guides/subpart-h-guide-hsr/",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/guides/subpart-h-guide-trams/",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/subpart-c/",
+    "score": 0.96,
+    "performance": 0.92,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/subpart-d/",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/subpart-e/",
+    "score": 0.97,
+    "performance": 0.94,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/subpart-f/",
+    "score": 0.96,
+    "performance": 0.92,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/subpart-g/",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/update/buses-vans/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/ada/vehicles/update/rail-cars/",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/adaag-1991-2002.html",
+    "score": 0.87,
+    "performance": 0.67,
+    "accessibility": 0.9,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/admin/",
+    "score": 0.82,
+    "performance": 0.59,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/advancing-access/initiatives/av/forums/",
+    "score": 0.93,
+    "performance": 0.8,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advancing-access/initiatives/av/landing/",
+    "score": 0.96,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advancing-access/initiatives/av/report/",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advancing-access/initiatives/rulemaking/aircraft/",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/adaag/final-report/",
+    "score": 0.95,
+    "performance": 0.88,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/mde/charter/",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/mde/mde-report/",
+    "score": 0.86,
+    "performance": 0.57,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/mde/members/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/mde/minutes/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/mde/notice-establishing-committee/",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/mde/operating-procedures/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/passenger-vessels/pvaac-report-adaag-coast-guard/",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/passenger-vessels/pvaac-report-ch02/",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/passenger-vessels/pvaac-report-ch05/",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/passenger-vessels/pvaac-report-ch07/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/passenger-vessels/pvaac-report-ch09/",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/passenger-vessels/pvaac-report-ch10/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/passenger-vessels/pvaac-report-intro/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/passenger-vessels/pvaac-report-summary/",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/rail/",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/rail/committee-members/",
+    "score": 0.99,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/rail/minutes/",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/rail/notice-establishing-committee/",
+    "score": 0.99,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/rail/notice-renewing-committee/",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/rail/operating-procedures/",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/advisory-committee-reports/rail/rvaac-report/",
+    "score": 0.96,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/aircraft/",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/av/",
+    "score": 0.99,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/av/forums.html",
+    "score": 0.95,
+    "performance": 0.86,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/av/report.html",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/bp/",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/buildings.html",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/cj/",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/contact/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/deia-recommendations/",
+    "score": 0.96,
+    "performance": 0.96,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/deia-strategic-plan/",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/deia/about/",
+    "score": 0.96,
+    "performance": 0.94,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/enforcement/",
+    "score": 1,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/enforcement/investigation.html",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/enforcement/other-resources.html",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/equity/",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/es/",
+    "score": 0.93,
+    "performance": 0.93,
+    "accessibility": 0.88,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/es/aplicacion.html",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/es/capacitacion.html",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/es/directrices-standares.html",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/es/formulario-denuncia.html",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/es/investigacion.html",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/es/ley-aba.html",
+    "score": 0.98,
+    "performance": 0.97,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/es/otros-recursos.html",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/es/presente.html",
+    "score": 0.98,
+    "performance": 0.98,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/events/",
+    "score": 1,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  }
+]
