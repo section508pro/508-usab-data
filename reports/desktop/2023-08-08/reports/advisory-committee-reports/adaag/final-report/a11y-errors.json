@@ -1,0 +1,124 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-384-NAV",
+            "path": "1,HTML,1,BODY,2,MAIN,0,DIV,1,DIV,0,DIV,1,ASIDE,0,NAV",
+            "selector": "div.grid-container > div.grid-row > aside#toc-aside > nav.toc-subnav",
+            "boundingRect": {
+              "top": 453,
+              "bottom": 569,
+              "left": 195,
+              "right": 411,
+              "width": 216,
+              "height": 116
+            },
+            "snippet": "<nav role=\"navigation\" class=\"toc-subnav usa-accordion\" aria-multiselectable=\"true\" aria-label=\"Table of contents subnavigation\">",
+            "nodeLabel": "Table of Contents\nFinal Report",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-385-H4",
+            "path": "1,HTML,1,BODY,2,MAIN,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,163,H4",
+            "selector": "div.grid-row > div#standard > div > h4#table-2082-accessible-parking-spaces",
+            "boundingRect": {
+              "top": 13644,
+              "bottom": 13669,
+              "left": 443,
+              "right": 1155,
+              "width": 712,
+              "height": 25
+            },
+            "snippet": "<h4 id=\"table-2082-accessible-parking-spaces\">",
+            "nodeLabel": "Table 208.2 Accessible Parking Spaces",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-386-H4",
+            "path": "1,HTML,1,BODY,2,MAIN,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,752,H4",
+            "selector": "div.grid-row > div#standard > div > h4#table-702321-light-dispersion-for-wall-mounted-visual-alarm-appliances",
+            "boundingRect": {
+              "top": 62980,
+              "bottom": 63005,
+              "left": 443,
+              "right": 1155,
+              "width": 712,
+              "height": 25
+            },
+            "snippet": "<h4 id=\"table-702321-light-dispersion-for-wall-mounted-visual-alarm-appliances\">",
+            "nodeLabel": "Table 702.3.2.1 Light Dispersion for Wall-Mounted Visual Alarm Appliances",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

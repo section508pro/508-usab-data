@@ -1,0 +1,509 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-118-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,2,DIV,1,UL,0,LI,0,A,0,DIV,2,DIV,1,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.usa-card__body > h6",
+            "boundingRect": {
+              "top": 705,
+              "bottom": 727,
+              "left": 461,
+              "right": 686,
+              "width": 225,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-119-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,3,DIV,0,UL,0,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 1100,
+              "bottom": 1122,
+              "left": 205,
+              "right": 349,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-120-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,3,DIV,0,UL,1,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 1102,
+              "bottom": 1123,
+              "left": 393,
+              "right": 537,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-121-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,3,DIV,0,UL,2,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 1119,
+              "bottom": 1141,
+              "left": 581,
+              "right": 725,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-122-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,6,DIV,1,UL,0,LI,0,A,0,DIV,2,DIV,1,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.usa-card__body > h6",
+            "boundingRect": {
+              "top": 1363,
+              "bottom": 1385,
+              "left": 461,
+              "right": 584,
+              "width": 123,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-123-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,7,DIV,0,UL,0,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 1739,
+              "bottom": 1761,
+              "left": 205,
+              "right": 349,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-124-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,7,DIV,0,UL,1,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 1758,
+              "bottom": 1780,
+              "left": 393,
+              "right": 537,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-125-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,7,DIV,0,UL,2,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 1777,
+              "bottom": 1799,
+              "left": 581,
+              "right": 725,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-126-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,7,DIV,0,UL,3,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 1758,
+              "bottom": 1780,
+              "left": 769,
+              "right": 913,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-127-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,7,DIV,0,UL,4,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 1758,
+              "bottom": 1780,
+              "left": 957,
+              "right": 1101,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-128-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,7,DIV,0,UL,5,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 2074,
+              "bottom": 2096,
+              "left": 205,
+              "right": 349,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-129-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,7,DIV,0,UL,6,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 2074,
+              "bottom": 2096,
+              "left": 393,
+              "right": 537,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-130-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,10,DIV,1,UL,0,LI,0,A,0,DIV,2,DIV,1,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.usa-card__body > h6",
+            "boundingRect": {
+              "top": 2318,
+              "bottom": 2340,
+              "left": 461,
+              "right": 721,
+              "width": 260,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-131-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,11,DIV,0,UL,0,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 2752,
+              "bottom": 2774,
+              "left": 205,
+              "right": 349,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-132-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,11,DIV,0,UL,1,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 2694,
+              "bottom": 2716,
+              "left": 393,
+              "right": 537,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-133-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,11,DIV,0,UL,2,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 2694,
+              "bottom": 2716,
+              "left": 581,
+              "right": 725,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-134-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,14,DIV,1,UL,0,LI,0,A,0,DIV,2,DIV,1,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.usa-card__body > h6",
+            "boundingRect": {
+              "top": 2996,
+              "bottom": 3018,
+              "left": 461,
+              "right": 582,
+              "width": 121,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-135-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,15,DIV,0,UL,0,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 3372,
+              "bottom": 3394,
+              "left": 205,
+              "right": 349,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-136-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,15,DIV,0,UL,1,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 3391,
+              "bottom": 3413,
+              "left": 393,
+              "right": 537,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-137-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,15,DIV,0,UL,2,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 3410,
+              "bottom": 3432,
+              "left": 581,
+              "right": 725,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-138-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,15,DIV,0,UL,3,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 3391,
+              "bottom": 3413,
+              "left": 769,
+              "right": 913,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-139-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,15,DIV,0,UL,4,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 3372,
+              "bottom": 3394,
+              "left": 957,
+              "right": 1101,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-140-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,15,DIV,0,UL,5,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 3707,
+              "bottom": 3728,
+              "left": 205,
+              "right": 349,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-141-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,15,DIV,0,UL,6,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 3707,
+              "bottom": 3728,
+              "left": 393,
+              "right": 537,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-142-H6",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,15,DIV,0,UL,7,LI,0,A,0,DIV,0,DIV,2,H6",
+            "selector": "a.style-inherit > div.usa-card__container > div.maxw-card > h6.text-center",
+            "boundingRect": {
+              "top": 3707,
+              "bottom": 3728,
+              "left": 581,
+              "right": 725,
+              "width": 144,
+              "height": 22
+            },
+            "snippet": "<h6 class=\"text-center margin-y-0\">",
+            "nodeLabel": "Biography",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 25
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "aria-roles",
+    "title": "`[role]` values are not valid",
+    "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-118-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,1,MAIN,0,DIV,126,DIV,0,OL,0,LI",
+            "selector": "div#content > div.footnotes > ol > li#fn:1",
+            "boundingRect": {
+              "top": 28827,
+              "bottom": 29030,
+              "left": 56,
+              "right": 396,
+              "width": 340,
+              "height": 204
+            },
+            "snippet": "<li id=\"fn:1\" role=\"doc-endnote\">",
+            "nodeLabel": "As a federal agency, the Access Board complies with the Architectural Barriers …",
+            "explanation": "Fix all of the following:\n  The role used is deprecated: ${data.values}"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "minor",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

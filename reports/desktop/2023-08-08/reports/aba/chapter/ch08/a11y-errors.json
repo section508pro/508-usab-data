@@ -1,0 +1,216 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-141-NAV",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,0,ASIDE,1,DIV,0,NAV",
+            "selector": "div.grid-row > aside#toc > div.padding-2 > nav.toc-subnav",
+            "boundingRect": {
+              "top": 475,
+              "bottom": 1540,
+              "left": 16,
+              "right": 306,
+              "width": 290,
+              "height": 1065
+            },
+            "snippet": "<nav role=\"navigation\" class=\"toc-subnav usa-accordion\" aria-multiselectable=\"true\" aria-label=\"Table of contents subnavigation\">",
+            "nodeLabel": "TABLE OF CONTENTS\nAbout the ABA\nChapter 1: Application and Administration\nChapt…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are not unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-142-H3",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,5,H3",
+            "selector": "div#content > div#toc-source-content > div > h3#a802",
+            "boundingRect": {
+              "top": 861,
+              "bottom": 925,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 64
+            },
+            "snippet": "<h3 id=\"a802\" style=\"display: inline-block;\">",
+            "nodeLabel": "802 Wheelchair Spaces, Companion Seats, and Designated Aisle Seats",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: a802"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-143-H3",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,37,H3",
+                  "selector": "div#content > div#toc-source-content > div > h3#a802",
+                  "boundingRect": {
+                    "top": 4966,
+                    "bottom": 4998,
+                    "left": 387,
+                    "right": 816,
+                    "width": 429,
+                    "height": 32
+                  },
+                  "snippet": "<h3 id=\"a802\" style=\"display: inline-block;\">",
+                  "nodeLabel": "803 Dressing, Fitting, and Locker Rooms"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-144-H3",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,46,H3",
+                  "selector": "div#content > div#toc-source-content > div > h3#a802",
+                  "boundingRect": {
+                    "top": 5532,
+                    "bottom": 5564,
+                    "left": 387,
+                    "right": 713,
+                    "width": 326,
+                    "height": 32
+                  },
+                  "snippet": "<h3 id=\"a802\" style=\"display: inline-block;\">",
+                  "nodeLabel": "804 Kitchens and Kitchenettes"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-145-H3",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,79,H3",
+                  "selector": "div#content > div#toc-source-content > div > h3#a802",
+                  "boundingRect": {
+                    "top": 8806,
+                    "bottom": 8838,
+                    "left": 387,
+                    "right": 897,
+                    "width": 510,
+                    "height": 32
+                  },
+                  "snippet": "<h3 id=\"a802\" style=\"display: inline-block;\">",
+                  "nodeLabel": "805 Medical Care and Long-Term Care Facilities"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-146-H3",
+            "path": "1,HTML,1,BODY,2,MAIN,0,DIV,0,DIV,1,H3",
+            "selector": "main.usa-layout-docs > div#section-title > div.grid-container > h3.text-italic",
+            "boundingRect": {
+              "top": 418,
+              "bottom": 443,
+              "left": 195,
+              "right": 1155,
+              "width": 960,
+              "height": 25
+            },
+            "snippet": "<h3 class=\"text-italic text-white margin-0 margin-top-1\">",
+            "nodeLabel": "Accessibility Standards",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

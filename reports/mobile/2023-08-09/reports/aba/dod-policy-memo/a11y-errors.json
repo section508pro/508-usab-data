@@ -1,0 +1,111 @@
+[
+  {
+    "id": "aria-roles",
+    "title": "`[role]` values are not valid",
+    "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-101-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,41,DIV,0,OL,0,LI",
+            "selector": "div#content > div.footnotes > ol > li#fn:1",
+            "boundingRect": {
+              "top": 10336,
+              "bottom": 10641,
+              "left": 56,
+              "right": 396,
+              "width": 340,
+              "height": 305
+            },
+            "snippet": "<li id=\"fn:1\" role=\"doc-endnote\">",
+            "nodeLabel": "As published in the Federal Register and the Code of Federal Regulations, the B…",
+            "explanation": "Fix all of the following:\n  The role used is deprecated: ${data.values}"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-102-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,41,DIV,0,OL,1,LI",
+            "selector": "div#content > div.footnotes > ol > li#fn:2",
+            "boundingRect": {
+              "top": 10658,
+              "bottom": 10709,
+              "left": 56,
+              "right": 396,
+              "width": 340,
+              "height": 51
+            },
+            "snippet": "<li id=\"fn:2\" role=\"doc-endnote\">",
+            "nodeLabel": "See definition of “residential dwelling unit” at section FI06.4 of ABA Chapter …",
+            "explanation": "Fix all of the following:\n  The role used is deprecated: ${data.values}"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-103-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,41,DIV,0,OL,2,LI",
+            "selector": "div#content > div.footnotes > ol > li#fn:3",
+            "boundingRect": {
+              "top": 10726,
+              "bottom": 10802,
+              "left": 56,
+              "right": 396,
+              "width": 340,
+              "height": 76
+            },
+            "snippet": "<li id=\"fn:3\" role=\"doc-endnote\">",
+            "nodeLabel": "A DoD Component may choose to expend funds beyond twenty percent but is not req…",
+            "explanation": "Fix all of the following:\n  The role used is deprecated: ${data.values}"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-104-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,41,DIV,0,OL,3,LI",
+            "selector": "div#content > div.footnotes > ol > li#fn:4",
+            "boundingRect": {
+              "top": 10819,
+              "bottom": 10870,
+              "left": 56,
+              "right": 396,
+              "width": 340,
+              "height": 51
+            },
+            "snippet": "<li id=\"fn:4\" role=\"doc-endnote\">",
+            "nodeLabel": "As defined in Section 2910(4) of the Defense Base Closure and Realignment Act o…",
+            "explanation": "Fix all of the following:\n  The role used is deprecated: ${data.values}"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "minor",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

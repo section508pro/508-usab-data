@@ -1,0 +1,77 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-22-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,0,P,0,BUTTON,0,A",
+            "selector": "div#content > p > button.usa-button > a",
+            "boundingRect": {
+              "top": 411,
+              "bottom": 432,
+              "left": 183,
+              "right": 213,
+              "width": 30,
+              "height": 21
+            },
+            "snippet": "<a href=\"/files/usab-equity-action-plan.pdf\">",
+            "nodeLabel": "PDF",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.39 (foreground color: #0000ee, background color: #005ea2, font size: 12.7pt (16.96px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-89-BUTTON",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,0,P,0,BUTTON",
+                  "selector": "main#main-content > div#content > p > button.usa-button",
+                  "boundingRect": {
+                    "top": 402,
+                    "bottom": 442,
+                    "left": 8,
+                    "right": 388,
+                    "width": 380,
+                    "height": 39
+                  },
+                  "snippet": "<button class=\"usa-button\" style=\"float:right;margin-top:-3em\">",
+                  "nodeLabel": "PDF"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

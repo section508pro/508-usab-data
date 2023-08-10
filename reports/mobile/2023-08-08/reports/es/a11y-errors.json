@@ -1,0 +1,109 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-102-NAV",
+            "path": "1,HTML,1,BODY,2,MAIN,0,DIV,1,DIV,0,DIV,1,ASIDE,0,NAV",
+            "selector": "div.grid-container > div.grid-row > aside#toc-aside > nav.toc-subnav",
+            "boundingRect": {
+              "top": 423,
+              "bottom": 482,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 59
+            },
+            "snippet": "<nav role=\"navigation\" class=\"toc-subnav usa-accordion\" aria-multiselectable=\"true\" aria-label=\"Table of contents subnavigation\">",
+            "nodeLabel": "Tabla de Contenido",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-103-IMG",
+            "path": "1,HTML,1,BODY,2,MAIN,0,DIV,1,DIV,0,DIV,2,DIV,1,DIV,0,P,0,IMG",
+            "selector": "div#standard > div > p > img.float-right",
+            "boundingRect": {
+              "top": 644,
+              "bottom": 884,
+              "left": 140,
+              "right": 380,
+              "width": 240,
+              "height": 240
+            },
+            "snippet": "<img class=\"float-right maxw-card-lg padding-left-2 padding-bottom-2\" altel=\"\" logo=\"\" del=\"\" consejo=\"\" de=\"\" acceso=\"\" integrity=\"sha512-NDS7CVuGCXgH6y1momDdUlxEbdRLatZQGvaB8SSdt8U1R+gN8znYJSVbiM+Yd4cCAO7…\" crossorigin=\"anonymous\" src=\"/assets/usab-seal-3434bb095b86097807eb2d66a260dd525c446dd44b6ad6501af681f1…\">",
+            "nodeLabel": "div#standard > div > p > img.float-right",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,256 @@
+[
+  {
+    "id": "aria-roles",
+    "title": "`[role]` values are not valid",
+    "description": "ARIA roles must have valid values in order to perform their intended accessibility functions. [Learn more](https://web.dev/aria-roles/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,1,MAIN,0,DIV,406,DIV,0,OL,0,LI",
+            "selector": "div#content > div.footnotes > ol > li#fn:i",
+            "boundingRect": {
+              "top": 88233,
+              "bottom": 88437,
+              "left": 56,
+              "right": 396,
+              "width": 340,
+              "height": 204
+            },
+            "snippet": "<li id=\"fn:i\" role=\"doc-endnote\">",
+            "nodeLabel": "Americans With Disabilities Act Accessibility Guidelines for Buildings and Faci…",
+            "explanation": "Fix all of the following:\n  The role used is deprecated: ${data.values}"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-151-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,1,MAIN,0,DIV,406,DIV,0,OL,1,LI",
+            "selector": "div#content > div.footnotes > ol > li#fn:ii",
+            "boundingRect": {
+              "top": 88454,
+              "bottom": 88530,
+              "left": 56,
+              "right": 396,
+              "width": 340,
+              "height": 76
+            },
+            "snippet": "<li id=\"fn:ii\" role=\"doc-endnote\">",
+            "nodeLabel": "Section 508 ICT Testing Baseline, https://ictbaseline.access-board.gov/, access…",
+            "explanation": "Fix all of the following:\n  The role used is deprecated: ${data.values}"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,1,MAIN,0,DIV,406,DIV,0,OL,2,LI",
+            "selector": "div#content > div.footnotes > ol > li#fn:1",
+            "boundingRect": {
+              "top": 88547,
+              "bottom": 88649,
+              "left": 56,
+              "right": 396,
+              "width": 340,
+              "height": 102
+            },
+            "snippet": "<li id=\"fn:1\" role=\"doc-endnote\">",
+            "nodeLabel": "The RSI consists of Management’s Discussion and Analysis and the Statement of B…",
+            "explanation": "Fix all of the following:\n  The role used is deprecated: ${data.values}"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,1,MAIN,0,DIV,406,DIV,0,OL,3,LI",
+            "selector": "div#content > div.footnotes > ol > li#fn:2",
+            "boundingRect": {
+              "top": 88666,
+              "bottom": 88768,
+              "left": 56,
+              "right": 396,
+              "width": 340,
+              "height": 102
+            },
+            "snippet": "<li id=\"fn:2\" role=\"doc-endnote\">",
+            "nodeLabel": "Other information consists of information included with the financial statement…",
+            "explanation": "Fix all of the following:\n  The role used is deprecated: ${data.values}"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-154-LI",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,1,MAIN,0,DIV,406,DIV,0,OL,4,LI",
+            "selector": "div#content > div.footnotes > ol > li#fn:3",
+            "boundingRect": {
+              "top": 88785,
+              "bottom": 89217,
+              "left": 56,
+              "right": 396,
+              "width": 340,
+              "height": 432
+            },
+            "snippet": "<li id=\"fn:3\" role=\"doc-endnote\">",
+            "nodeLabel": "A deficiency in internal control exists when the design or operation of a contr…",
+            "explanation": "Fix all of the following:\n  The role used is deprecated: ${data.values}"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "minor",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 5
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-33-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,1,MAIN,0,DIV,0,P,0,BUTTON,0,A",
+            "selector": "div#content > p > button.usa-button > a",
+            "boundingRect": {
+              "top": 1357,
+              "bottom": 1378,
+              "left": 183,
+              "right": 213,
+              "width": 30,
+              "height": 21
+            },
+            "snippet": "<a href=\"/files/usab-par-fy2022.pdf\">",
+            "nodeLabel": "PDF",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.39 (foreground color: #0000ee, background color: #005ea2, font size: 12.7pt (16.96px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-149-BUTTON",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,1,MAIN,0,DIV,0,P,0,BUTTON",
+                  "selector": "main#main-content > div#content > p > button.usa-button",
+                  "boundingRect": {
+                    "top": 1348,
+                    "bottom": 1387,
+                    "left": 8,
+                    "right": 388,
+                    "width": 380,
+                    "height": 39
+                  },
+                  "snippet": "<button class=\"usa-button\" style=\"float:right\">",
+                  "nodeLabel": "PDF"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-155-H3",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,H3",
+            "selector": "body > div#section-title > div.grid-container > h3.text-italic",
+            "boundingRect": {
+              "top": 427,
+              "bottom": 476,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 49
+            },
+            "snippet": "<h3 class=\"text-italic text-white margin-0 margin-top-1\">",
+            "nodeLabel": "Performance and Accountability Report Fiscal Year 2022",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
