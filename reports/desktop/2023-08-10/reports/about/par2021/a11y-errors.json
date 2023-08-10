@@ -1,0 +1,147 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-33-A",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,1,MAIN,0,DIV,1,P,0,BUTTON,0,A",
+            "selector": "div#content > p > button.usa-button > a",
+            "boundingRect": {
+              "top": 686,
+              "bottom": 708,
+              "left": 1098,
+              "right": 1127,
+              "width": 29,
+              "height": 22
+            },
+            "snippet": "<a href=\"/files/usab-par-fy2021.pdf\">",
+            "nodeLabel": "PDF",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.39 (foreground color: #0000ee, background color: #005ea2, font size: 12.7pt (16.96px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-132-BUTTON",
+                  "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,1,MAIN,0,DIV,1,P,0,BUTTON",
+                  "selector": "main#main-content > div#content > p > button.usa-button",
+                  "boundingRect": {
+                    "top": 678,
+                    "bottom": 717,
+                    "left": 1078,
+                    "right": 1147,
+                    "width": 69,
+                    "height": 39
+                  },
+                  "snippet": "<button class=\"usa-button\" style=\"float:right\">",
+                  "nodeLabel": "PDF"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-133-H3",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,1,H3",
+            "selector": "body > div#section-title > div.grid-container > h3.text-italic",
+            "boundingRect": {
+              "top": 417,
+              "bottom": 442,
+              "left": 195,
+              "right": 1155,
+              "width": 960,
+              "height": 25
+            },
+            "snippet": "<h3 class=\"text-italic text-white margin-0 margin-top-1\">",
+            "nodeLabel": "Performance and Accountability Report Fiscal Year 2021",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-134-H6",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,1,MAIN,0,DIV,365,H6",
+            "selector": "div.grid-row > main#main-content > div#content > h6#budget-and-accrual-reconciliation--for-the-years-ended-september-30-2021",
+            "boundingRect": {
+              "top": 47658,
+              "bottom": 47701,
+              "left": 443,
+              "right": 1155,
+              "width": 712,
+              "height": 44
+            },
+            "snippet": "<h6 id=\"budget-and-accrual-reconciliation--for-the-years-ended-september-30-2021\">",
+            "nodeLabel": "Budget and Accrual Reconciliation\nFor the Years Ended September 30, 2021",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

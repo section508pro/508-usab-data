@@ -1,0 +1,180 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-250-NAV",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,0,ASIDE,1,DIV,0,NAV",
+            "selector": "div.grid-row > aside#toc > div.padding-2 > nav.toc-subnav",
+            "boundingRect": {
+              "top": 442,
+              "bottom": 2752,
+              "left": 16,
+              "right": 306,
+              "width": 290,
+              "height": 2310
+            },
+            "snippet": "<nav role=\"navigation\" class=\"toc-subnav usa-accordion\" aria-multiselectable=\"true\" aria-label=\"Table of contents subnavigation\">",
+            "nodeLabel": "TABLE OF CONTENTS\nAbout the ADA Guides\nAnimations\nChapter 1: Using the ADA Stan…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are not unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-251-H4",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,56,H4",
+            "selector": "div.desktop:grid-col > div#content > div#toc-source-content > h4#grab-bars",
+            "boundingRect": {
+              "top": 5480,
+              "bottom": 5505,
+              "left": 387,
+              "right": 472,
+              "width": 85,
+              "height": 25
+            },
+            "snippet": "<h4 id=\"grab-bars\" style=\"display: inline-block;\">",
+            "nodeLabel": "Grab Bars",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: grab-bars"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-252-H4",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,93,DIV,0,H4",
+                  "selector": "div#content > div#toc-source-content > div.clearfix > h4#grab-bars",
+                  "boundingRect": {
+                    "top": 10255,
+                    "bottom": 10280,
+                    "left": 387,
+                    "right": 472,
+                    "width": 85,
+                    "height": 25
+                  },
+                  "snippet": "<h4 id=\"grab-bars\" style=\"display: inline-block;\">",
+                  "nodeLabel": "Grab Bars"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-253-H3",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,2,H3",
+            "selector": "div.desktop:grid-col > div#content > div#toc-source-content > h3#required-compliance",
+            "boundingRect": {
+              "top": 629,
+              "bottom": 662,
+              "left": 387,
+              "right": 611,
+              "width": 224,
+              "height": 32
+            },
+            "snippet": "<h3 id=\"required-compliance\" style=\"display: inline-block;\">",
+            "nodeLabel": "Required Compliance",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

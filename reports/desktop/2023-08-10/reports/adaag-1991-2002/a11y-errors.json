@@ -1,0 +1,665 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1687-NAV",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,0,ASIDE,1,DIV,0,NAV",
+            "selector": "div.grid-row > aside#toc > div.padding-2 > nav.toc-subnav",
+            "boundingRect": {
+              "top": 475,
+              "bottom": 2938,
+              "left": 16,
+              "right": 306,
+              "width": 290,
+              "height": 2463
+            },
+            "snippet": "<nav role=\"navigation\" class=\"toc-subnav usa-accordion\" aria-multiselectable=\"true\" aria-label=\"Table of contents subnavigation\">",
+            "nodeLabel": "Table of Contents\n1. PURPOSE\n2. GENERAL\n3. MISCELLANEOUS INSTRUCTIONS AND DEFIN…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1680-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL",
+            "selector": "div#content > div > div > dl",
+            "boundingRect": {
+              "top": 14645,
+              "bottom": 200919,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 186274
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1)(a) At least one accessible route complying with 4.3 shall connect accessibl…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-169-A",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,9,A",
+                  "selector": "div > div > dl > a",
+                  "boundingRect": {
+                    "top": 15027,
+                    "bottom": 15049,
+                    "left": 704,
+                    "right": 731,
+                    "width": 27,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"#4.10\">",
+                  "nodeLabel": "4.10"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-170-A",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,11,A",
+                  "selector": "div > div > dl > a",
+                  "boundingRect": {
+                    "top": 15078,
+                    "bottom": 15100,
+                    "left": 768,
+                    "right": 795,
+                    "width": 27,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"#4.10\">",
+                  "nodeLabel": "4.10"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-171-A",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,13,A",
+                  "selector": "div > div > dl > a",
+                  "boundingRect": {
+                    "top": 15078,
+                    "bottom": 15100,
+                    "left": 801,
+                    "right": 963,
+                    "width": 162,
+                    "height": 22
+                  },
+                  "snippet": "<a href=\"#A4.1.3(5)\">",
+                  "nodeLabel": "Appendix Note 4.1.3(5)"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1688-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,50,DL",
+            "selector": "div > div > dl > dl",
+            "boundingRect": {
+              "top": 18670,
+              "bottom": 19248,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 578
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(a) If public pay telephones, public closed circuit telephones, or other public…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1689-H3",
+            "path": "1,HTML,1,BODY,2,MAIN,0,DIV,0,DIV,1,H3",
+            "selector": "main.usa-layout-docs > div#section-title > div.grid-container > h3.text-italic",
+            "boundingRect": {
+              "top": 418,
+              "bottom": 443,
+              "left": 195,
+              "right": 1155,
+              "width": 960,
+              "height": 25
+            },
+            "snippet": "<h3 class=\"text-italic text-white margin-0 margin-top-1\">",
+            "nodeLabel": "1991 edition and later supplements, As amended through September 2002",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1690-H5",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,953,H5",
+            "selector": "div > div > dl > h5#9.1.2",
+            "boundingRect": {
+              "top": 106259,
+              "bottom": 106283,
+              "left": 387,
+              "right": 791,
+              "width": 404,
+              "height": 24
+            },
+            "snippet": "<h5 id=\"9.1.2\" style=\"display: inline-block;\">",
+            "nodeLabel": "9.1.2 Accessible Units, Sleeping Rooms, and Suites",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1691-OL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,94,OL",
+            "selector": "div#content > div > div > ol",
+            "boundingRect": {
+              "top": 11425,
+              "bottom": 12213,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 788
+            },
+            "snippet": "<ol style=\"list-style-type: lower-alpha;\">",
+            "nodeLabel": "In new construction, a person or entity is not required to meet fully the requi…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1692-OL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,94,OL,2,OL",
+                  "selector": "div > div > ol > ol",
+                  "boundingRect": {
+                    "top": 11680,
+                    "bottom": 12213,
+                    "left": 427,
+                    "right": 1060,
+                    "width": 634,
+                    "height": 534
+                  },
+                  "snippet": "<ol style=\"list-style-type: lower-roman;\">",
+                  "nodeLabel": "raised areas used primarily for purposes of security or life or fire safety, in…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1693-OL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,62,OL",
+            "selector": "div > div > dl > ol",
+            "boundingRect": {
+              "top": 22000,
+              "bottom": 25618,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 3618
+            },
+            "snippet": "<ol style=\"list-style-type: upper-greek;\">",
+            "nodeLabel": "General. Alterations to existing buildings and facilities shall comply with the…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1694-OL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,62,OL,1,OL",
+                  "selector": "div > dl > ol > ol",
+                  "boundingRect": {
+                    "top": 22025,
+                    "bottom": 23839,
+                    "left": 427,
+                    "right": 1060,
+                    "width": 634,
+                    "height": 1813
+                  },
+                  "snippet": "<ol style=\"list-style-type: lower-alpha;\">",
+                  "nodeLabel": "No alteration shall be undertaken which decreases or has the effect of decreasi…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1695-OL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,62,OL,4,OL",
+                  "selector": "div > dl > ol > ol",
+                  "boundingRect": {
+                    "top": 24067,
+                    "bottom": 25618,
+                    "left": 427,
+                    "right": 1060,
+                    "width": 634,
+                    "height": 1551
+                  },
+                  "snippet": "<ol style=\"list-style-type: lower-alpha;\">",
+                  "nodeLabel": "Ramps: Curb ramps and interior or exterior ramps to be constructed on sites or …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1694-OL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,62,OL,1,OL",
+            "selector": "div > dl > ol > ol",
+            "boundingRect": {
+              "top": 22025,
+              "bottom": 23839,
+              "left": 427,
+              "right": 1060,
+              "width": 634,
+              "height": 1813
+            },
+            "snippet": "<ol style=\"list-style-type: lower-alpha;\">",
+            "nodeLabel": "No alteration shall be undertaken which decreases or has the effect of decreasi…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1696-OL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,62,OL,1,OL,5,OL",
+                  "selector": "dl > ol > ol > ol",
+                  "boundingRect": {
+                    "top": 22610,
+                    "bottom": 22762,
+                    "left": 467,
+                    "right": 1060,
+                    "width": 594,
+                    "height": 153
+                  },
+                  "snippet": "<ol style=\"list-style-type: lower-roman;\">",
+                  "nodeLabel": "alterations to existing buildings or facilities with less than four exterior or…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1697-DL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,62,OL,1,OL,11,DL",
+                  "selector": "dl > ol > ol > dl",
+                  "boundingRect": {
+                    "top": 23313,
+                    "bottom": 23542,
+                    "left": 467,
+                    "right": 1060,
+                    "width": 594,
+                    "height": 229
+                  },
+                  "snippet": "<dl>",
+                  "nodeLabel": "Technically Infeasible\nMeans, with respect to an alteration of a building or a …"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1698-OL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,62,OL,1,OL,13,OL",
+                  "selector": "dl > ol > ol > ol",
+                  "boundingRect": {
+                    "top": 23584,
+                    "bottom": 23839,
+                    "left": 467,
+                    "right": 1060,
+                    "width": 594,
+                    "height": 254
+                  },
+                  "snippet": "<ol style=\"list-style-type: lower-roman;\">",
+                  "nodeLabel": "These guidelines do not require the installation of an elevator in an altered f…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1695-OL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,62,OL,4,OL",
+            "selector": "div > dl > ol > ol",
+            "boundingRect": {
+              "top": 24067,
+              "bottom": 25618,
+              "left": 427,
+              "right": 1060,
+              "width": 634,
+              "height": 1551
+            },
+            "snippet": "<ol style=\"list-style-type: lower-alpha;\">",
+            "nodeLabel": "Ramps: Curb ramps and interior or exterior ramps to be constructed on sites or …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1699-OL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,62,OL,4,OL,1,OL",
+                  "selector": "dl > ol > ol > ol",
+                  "boundingRect": {
+                    "top": 24144,
+                    "bottom": 24245,
+                    "left": 467,
+                    "right": 1060,
+                    "width": 594,
+                    "height": 102
+                  },
+                  "snippet": "<ol style=\"list-style-type: lower-roman;\">",
+                  "nodeLabel": "A slope between 1:10 and 1:12 is allowed for a maximum rise of 6 inches (150 mm…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1700-OL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,62,OL,4,OL,4,OL",
+                  "selector": "dl > ol > ol > ol",
+                  "boundingRect": {
+                    "top": 24347,
+                    "bottom": 24652,
+                    "left": 467,
+                    "right": 1060,
+                    "width": 594,
+                    "height": 305
+                  },
+                  "snippet": "<ol style=\"list-style-type: lower-roman;\">",
+                  "nodeLabel": "If safety door edges are provided in existing automatic elevators, automatic do…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1701-OL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,62,OL,4,OL,6,OL",
+                  "selector": "dl > ol > ol > ol",
+                  "boundingRect": {
+                    "top": 24677,
+                    "bottom": 24805,
+                    "left": 467,
+                    "right": 1060,
+                    "width": 594,
+                    "height": 127
+                  },
+                  "snippet": "<ol style=\"list-style-type: lower-roman;\">",
+                  "nodeLabel": "Where it is technically infeasible to comply with clear opening width requireme…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1702-OL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,66,OL",
+            "selector": "div > div > dl > ol",
+            "boundingRect": {
+              "top": 25705,
+              "bottom": 27747,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 2042
+            },
+            "snippet": "<ol style=\"list-style-type: upper-greek;\">",
+            "nodeLabel": "* Applicability:\nGeneral Rule\nAlterations to a qualified historic building or f…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1703-DL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,66,OL,1,DL",
+                  "selector": "div > dl > ol > dl",
+                  "boundingRect": {
+                    "top": 25747,
+                    "bottom": 26077,
+                    "left": 427,
+                    "right": 1060,
+                    "width": 634,
+                    "height": 330
+                  },
+                  "snippet": "<dl>",
+                  "nodeLabel": "General Rule\nAlterations to a qualified historic building or facility shall com…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1704-OL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,66,OL,3,OL",
+                  "selector": "div > dl > ol > ol",
+                  "boundingRect": {
+                    "top": 26120,
+                    "bottom": 27187,
+                    "left": 427,
+                    "right": 1060,
+                    "width": 634,
+                    "height": 1068
+                  },
+                  "snippet": "<ol style=\"list-style-type: lower-alpha;\">",
+                  "nodeLabel": "Alterations to Qualified Historic Buildings and Facilities Subject to Section 1…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1705-OL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,66,OL,5,OL",
+                  "selector": "div > dl > ol > ol",
+                  "boundingRect": {
+                    "top": 27213,
+                    "bottom": 27747,
+                    "left": 427,
+                    "right": 1060,
+                    "width": 634,
+                    "height": 534
+                  },
+                  "snippet": "<ol style=\"list-style-type: lower-alpha;\">",
+                  "nodeLabel": "At least one accessible route complying with 4.3 from a site access point to an…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1704-OL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,66,OL,3,OL",
+            "selector": "div > dl > ol > ol",
+            "boundingRect": {
+              "top": 26120,
+              "bottom": 27187,
+              "left": 427,
+              "right": 1060,
+              "width": 634,
+              "height": 1068
+            },
+            "snippet": "<ol style=\"list-style-type: lower-alpha;\">",
+            "nodeLabel": "Alterations to Qualified Historic Buildings and Facilities Subject to Section 1…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1706-OL",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,104,DL,66,OL,3,OL,1,OL",
+                  "selector": "dl > ol > ol > ol",
+                  "boundingRect": {
+                    "top": 26171,
+                    "bottom": 26577,
+                    "left": 467,
+                    "right": 1060,
+                    "width": 594,
+                    "height": 407
+                  },
+                  "snippet": "<ol style=\"list-style-type: lower-roman;\">",
+                  "nodeLabel": "Section 106 Process. Section 106 of the National Historic Preservation Act (16 …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]
