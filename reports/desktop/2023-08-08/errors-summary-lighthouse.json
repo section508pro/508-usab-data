@@ -1,1 +1,13 @@
-{}
+{
+  "heading-order": 137,
+  "aria-allowed-attr": 98,
+  "definition-list": 28,
+  "image-alt": 13,
+  "link-name": 12,
+  "list": 6,
+  "aria-roles": 5,
+  "duplicate-id-aria": 5,
+  "color-contrast": 4,
+  "dlitem": 3,
+  "html-has-lang": 1
+}
