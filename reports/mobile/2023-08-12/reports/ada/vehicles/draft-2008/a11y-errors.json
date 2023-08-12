@@ -1,0 +1,72 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-110-H3",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,3,H3",
+            "selector": "main#main-content > div#content > div > h3",
+            "boundingRect": {
+              "top": 745,
+              "bottom": 841,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 96
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Americans with Disabilities Act (ADA) Accessibility Guidelines for Transportati…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-111-H4",
+            "path": "1,HTML,1,BODY,3,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,2,DIV,1,H4",
+            "selector": "main#main-content > div#content > div > h4",
+            "boundingRect": {
+              "top": 3735,
+              "bottom": 3754,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 20
+            },
+            "snippet": "<h4 style=\"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px;\">",
+            "nodeLabel": "Discussion of Revisions",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
