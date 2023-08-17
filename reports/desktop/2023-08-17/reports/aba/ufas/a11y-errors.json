@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-571-NAV",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,0,ASIDE,1,DIV,0,NAV",
+            "selector": "div.grid-row > aside#toc > div.padding-2 > nav.toc-subnav",
+            "boundingRect": {
+              "top": 475,
+              "bottom": 1179,
+              "left": 16,
+              "right": 306,
+              "width": 290,
+              "height": 705
+            },
+            "snippet": "<nav role=\"navigation\" class=\"toc-subnav usa-accordion\" aria-multiselectable=\"true\" aria-label=\"Table of contents subnavigation\">",
+            "nodeLabel": "TABLE OF CONTENTS\nIntroduction\n1. Purpose\n2. General\n3. Miscellaneous Instructi…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-572-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,86,DL,12,DD,1,DL",
+            "selector": "div > dl > dd > dl",
+            "boundingRect": {
+              "top": 22657,
+              "bottom": 22785,
+              "left": 427,
+              "right": 1060,
+              "width": 634,
+              "height": 127
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(i) At least one toilet facility for each sex in the altered building complying…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-573-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,86,DL,17,DD,1,DL",
+            "selector": "div > dl > dd > dl",
+            "boundingRect": {
+              "top": 23879,
+              "bottom": 24006,
+              "left": 427,
+              "right": 1060,
+              "width": 634,
+              "height": 127
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(i) If a safety door edge is provided in existing automatic elevators, then the…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-574-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,86,DL,18,DD,1,DL",
+            "selector": "div > dl > dd > dl",
+            "boundingRect": {
+              "top": 24065,
+              "bottom": 24192,
+              "left": 427,
+              "right": 1060,
+              "width": 634,
+              "height": 127
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(i) Where existing elements prohibit strict compliance with the clearance requi…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-575-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,86,DL,20,DD,1,DL",
+            "selector": "div > dl > dd > dl",
+            "boundingRect": {
+              "top": 24481,
+              "bottom": 24608,
+              "left": 427,
+              "right": 1060,
+              "width": 634,
+              "height": 127
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(i) In alterations where it is structurally impracticable to disperse seating t…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-576-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,146,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 30415,
+              "bottom": 30695,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 280
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) At least one accessible route within the boundary of the site shall be prov…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-577-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,326,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 42632,
+              "bottom": 42784,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 153
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) The landing shall be at least as wide as the ramp run leading to it.\n(2) Th…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-578-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,331,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 42964,
+              "bottom": 43218,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 254
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Handrails shall be provided along both sides of ramp segments. The inside h…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-579-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,365,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 45038,
+              "bottom": 46987,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 1950
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Handrails shall be continuous along both sides of stairs. The inside handra…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-580-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,365,DL,1,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 45105,
+                    "bottom": 45454,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 349
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"Stair Handrails - Plan\">",
+                  "nodeLabel": "Figure 19(a): Stair Handrails - Plan"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-581-P",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,365,DL,2,P",
+                  "selector": "div#content > div > dl > p",
+                  "boundingRect": {
+                    "top": 45471,
+                    "bottom": 45522,
+                    "left": 387,
+                    "right": 1060,
+                    "width": 674,
+                    "height": 51
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "Note: X is the 12 in minimum handrail extension required at each top riser. Y i…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-582-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,365,DL,3,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 45539,
+                    "bottom": 45912,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 373
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"Stair Handrails - Elevation of Center Handrail\">",
+                  "nodeLabel": "Figure 19(b): Stair Handrails - Elevation of Center Handrail"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-583-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,436,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 51129,
+              "bottom": 52719,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 1590
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Buttons. All control buttons shall be at least 3/4 in (19 mm) in their smal…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-584-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,436,DL,4,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 51654,
+                    "bottom": 51965,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 311
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"The diagram illustrates the symbols used for the following control buttons…\">",
+                  "nodeLabel": "Figure 23(a): Car Controls, Panel Detail"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-585-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,436,DL,5,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 51982,
+                    "bottom": 52188,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 206
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"fig23b\">",
+                  "nodeLabel": "Figure 23(b): Car Controls, Control Height"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-586-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,436,DL,6,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 52205,
+                    "bottom": 52453,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 249
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"Alternate Locations of Panel with Center Opening Door\">",
+                  "nodeLabel": "Figure 23(c): Car Controls, Alternate Locations of Panel with Center Opening Do…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-587-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,558,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 59515,
+              "bottom": 60939,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 1424
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Wall- and post-mounted cantilevered units shall have a clear knee space bet…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-588-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,558,DL,2,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 59761,
+                    "bottom": 60050,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 290
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"In addition to clearances discussed in the text, the following knee cleara…\">",
+                  "nodeLabel": "Figure 27(a): Drinking Fountains and Water Coolers - Spout Height and Knee Clea…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-589-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,558,DL,3,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 60067,
+                    "bottom": 60377,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 309
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"fig27b\">",
+                  "nodeLabel": "Figure 27(b): Drinking Fountains and Water Coolers - Clear Floor Space"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-590-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,558,DL,4,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 60394,
+                    "bottom": 60688,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 294
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"Drinking Fountains and Water Coolers - Free-Standing Fountain or Cooler\">",
+                  "nodeLabel": "Figure 27(c): Drinking Fountains and Water Coolers - Free-Standing Fountain or …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-591-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,881,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 78777,
+              "bottom": 79159,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 381
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Bending stress in a grab bar or seat induced by the maximum bending moment …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-592-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,921,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 80627,
+              "bottom": 80755,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 127
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Visual alarm devices that are mounted adjacent to emergency exit signs may …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-593-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1094,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 88741,
+              "bottom": 88995,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 254
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Notification of the alternate heights available for the kitchen counter and…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-594-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1096,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 89080,
+              "bottom": 89309,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 229
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Instructions for adjusting or replacing kitchen counter and sink heights an…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-595-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1108,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 89645,
+              "bottom": 89849,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 203
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Clear floor space at the water closet shall be as shown in Fig. 47(a). The …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-596-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1115,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 90458,
+              "bottom": 90585,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 127
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) The lavatory and mirrors shall comply with 4.22.6.\n(2) If a cabinet is prov…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-597-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1120,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 90714,
+              "bottom": 91461,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 747
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Floor space. Clear floor space at bathtubs shall be as shown in Fig. 33.\n(2…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-598-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1120,DL,3,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 90909,
+                    "bottom": 91094,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 185
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"Location of Grab Bars and Controls of Adaptable Bathrooms - With Seat in T…\">",
+                  "nodeLabel": "Figure 48(a): Location of Grab Bars and Controls, of Adaptable Bathrooms - With…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-599-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1120,DL,4,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 91111,
+                    "bottom": 91317,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 206
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"Location of Grab Bars and Controls of Adaptable Bathrooms - With Seat at H…\">",
+                  "nodeLabel": "Figure 48(b): Location of Grab Bars and Controls, of Adaptable Bathrooms - With…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-600-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1125,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 91590,
+              "bottom": 92441,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 851
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Size and clearances. Shower stall size and clear floor space shall comply w…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-601-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1125,DL,3,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 91912,
+                    "bottom": 92096,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 184
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"Location of Grab Bars and Controls of Adaptable Showers - 36-in by 36-in S…\">",
+                  "nodeLabel": "Figure 49(a): Location of Grab Bars and Controls of Adaptable Showers - 36-in b…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-602-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1125,DL,4,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 92113,
+                    "bottom": 92297,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 184
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"Location of Grab Bars and Controls of Adaptable Showers - 30-in by 60-in S…\">",
+                  "nodeLabel": "Figure 49(b): Location of Grab Bars and Controls, of Adaptable Showers - 30-in …"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-603-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1154,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 93497,
+              "bottom": 93827,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 330
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) The counter shall be mounted at a maximum height of 34 in (865 mm) above th…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-604-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1160,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 94192,
+              "bottom": 94751,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 559
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) The sink and surrounding counter shall be mounted at a maximum height of 34…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-605-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1185,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 96777,
+              "bottom": 96904,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 127
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Maximum height shall be 48 in (1220 mm) for at least one shelf of all cabin…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-606-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1238,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 99196,
+              "bottom": 99476,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 280
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Each bedroom shall have a turning space that complies with 4.2.3, and prefe…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-607-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1298,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 102271,
+              "bottom": 102398,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 127
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) All fixed partitions must be installed to withstand a 250-pound force appli…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-608-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1325,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 103666,
+              "bottom": 104502,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 836
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Space Requirements for Wheelchairs. Most wheelchair users need a 30 in (760…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-609-FIGURE",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1325,DL,3,FIGURE",
+                  "selector": "div#content > div > dl > figure",
+                  "boundingRect": {
+                    "top": 104344,
+                    "bottom": 104502,
+                    "left": 427,
+                    "right": 1020,
+                    "width": 594,
+                    "height": 159
+                  },
+                  "snippet": "<figure role=\"figure\" aria-label=\"Minimum Passage Width for One Wheelchair and One Ambulatory Person\">",
+                  "nodeLabel": "Figure A1: Minimum Passage Width for One Wheelchair and One Ambulatory Person"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-610-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1349,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 106302,
+              "bottom": 106531,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 229
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Travel Distances. Many disabled person can move at only very slow speeds; f…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-611-DL",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1449,DL",
+            "selector": "div.desktop:grid-col > div#content > div > dl",
+            "boundingRect": {
+              "top": 111755,
+              "bottom": 111950,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 195
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "(1) Hinged doors: Forced applied perpendicular to the door at the door opener o…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-612-P",
+                  "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1449,DL,3,P",
+                  "selector": "div#content > div > dl > p",
+                  "boundingRect": {
+                    "top": 111899,
+                    "bottom": 111950,
+                    "left": 387,
+                    "right": 1060,
+                    "width": 674,
+                    "height": 51
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "In high-rise buildings, air-pressure differentials may require a modification o…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 26
+  },
+  {
+    "id": "dlitem",
+    "title": "Definition list items are not wrapped in `<dl>` elements",
+    "description": "Definition list items (`<dt>` and `<dd>`) must be wrapped in a parent `<dl>` element to ensure that screen readers can properly announce them. [Learn more](https://web.dev/dlitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-613-DT",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,395,DT",
+            "selector": "div.desktop:grid-col > div#content > div > dt",
+            "boundingRect": {
+              "top": 48650,
+              "bottom": 48701,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 51
+            },
+            "snippet": "<dt style=\"font-weight: normal;\">",
+            "nodeLabel": "(1) Hall lantern fixtures shall be mounted so that their centerline is at least…",
+            "explanation": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-614-DT",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,396,DT",
+            "selector": "div.desktop:grid-col > div#content > div > dt",
+            "boundingRect": {
+              "top": 48701,
+              "bottom": 48727,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 25
+            },
+            "snippet": "<dt style=\"font-weight: normal;\">",
+            "nodeLabel": "(2) Visual elements shall be at least 2-1/2 in (64 mm) in the smallest dimensio…",
+            "explanation": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-615-DT",
+            "path": "1,HTML,1,BODY,2,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,397,DT",
+            "selector": "div.desktop:grid-col > div#content > div > dt",
+            "boundingRect": {
+              "top": 48727,
+              "bottom": 48803,
+              "left": 387,
+              "right": 1060,
+              "width": 674,
+              "height": 76
+            },
+            "snippet": "<dt style=\"font-weight: normal;\">",
+            "nodeLabel": "(3) Signals shall be visible from the vicinity of the hall call button. In-car …",
+            "explanation": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-616-H3",
+            "path": "1,HTML,1,BODY,2,MAIN,0,DIV,0,DIV,1,H3",
+            "selector": "main.usa-layout-docs > div#section-title > div.grid-container > h3.text-italic",
+            "boundingRect": {
+              "top": 418,
+              "bottom": 443,
+              "left": 195,
+              "right": 1155,
+              "width": 960,
+              "height": 25
+            },
+            "snippet": "<h3 class=\"text-italic text-white margin-0 margin-top-1\">",
+            "nodeLabel": "(UFAS)",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
